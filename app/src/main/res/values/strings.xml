@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">SimpleUI</string>
+
+  <string name="button_label_1">Button #1</string>
+  <string name="button_label_2">Button #2</string>
+  <string name="button_label_3">Button #3</string>
+  <string name="button_long_label">Button Looooong label</string>
+</resources>

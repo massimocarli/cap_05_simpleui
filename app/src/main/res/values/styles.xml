@@ -1,0 +1,39 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+  <style name="main_button_style">
+    <item name="android:textColor">@color/button_text_color</item>
+    <item name="android:background">@drawable/button_bg</item>
+    <item name="android:backgroundTint">@color/background_tint_color</item>
+    <item name="android:backgroundTintMode">screen</item>
+  </style>
+
+  <style name="MyTheme" parent="AppTheme">
+    <item name="android:buttonStyle">@style/main_button_style</item>
+    <item name="android:windowBackground">@drawable/bg</item>
+  </style>
+
+  <style name="RedText">
+    <item name="android:textColor">@color/red</item>
+  </style>
+
+  <style name="RedundantRedTextBold">
+    <item name="android:textColor">@color/red</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="RedTextBold" parent="RedText">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="RedText.Bold">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+</resources>
